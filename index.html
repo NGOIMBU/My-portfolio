@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #base{
+            height: 800px;
+            margin: 20px;
+            padding-top: 20px;
+            padding-left: 8px;
+            padding-right: 8px;
+            background-color: white;
+        }
+        nav{
+            float: right;
+            background-color: skyblue;
+            border: 2px;
+            border-radius: 10px;
+            height: 30px;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav li{
+            display: inline-block;
+            margin-left: 40px;
+            padding-top: 5px;
+        }
+        button{
+            background-color: rgb(40, 201, 134);
+        }
+        #first{
+            width: 300px;
+            height: 320px;
+            padding-top: 50px;
+            padding-left: 3px;
+            padding-right: 2px;
+            float: left;
+            border-radius: 10px;
+            border: 1px;
+        }
+        #second{
+           flex-direction: row;
+           display: flexbox;
+           border-radius: 8px;
+           border: 5px;
+           padding-top: 100px;
+           border-left: 20px;
+           justify-content: center;
+           margin: auto;
+        }
+        #box3{
+            border-radius: 14px;
+            margin: auto;
+            padding-top: 150px;
+            justify-content: center;
+        }
+        select{
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+   <section id="base">
+    
+        <header>
+            <nav class="NAVBAR">
+                <div>
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><button>HIRE ME</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div>
+            <img id="first" url src="https://media-exp1.licdn.com/dms/image/C4D03AQEwG8_NcwIl5Q/profile-displayphoto-shrink_800_800/0/1646950011262?e=2147483647&v=beta&t=WWXUOdvLveq3EyrwAfnBcsr8mz9QdcYDz-BaVvKTUJA" alt="ngo imbu">
+        </div>
+        <div id="second">
+            <h2>Hi, I am NGO IMBU and it's a delight to have you on my profile</h2>
+            <br>
+            <p>A tech lover with high creativity, passionate about design creation. I value accuracy and promptness and this is visible in all my activities(professionally and otherwise). Permit me to walk you through my <strong>Journey</strong> below.</p>
+        </div>
+        <div id="box3">
+            <h2>ABOUT</h2>
+            <p>Being adventurious and efficiently versatile led me into variety of innovative fields which includes <strong>Professional</strong> Graphics design, Software Engineering, Health Educator and my passion for rendering quality service prompted me to becoming professional Virtual Assistant.</p>
+            <p>I alaways take ownership of my professional development, therfore I constantly seek opportunities to constantly upskill and be an asset to my clients. My strenght lays in my ability to be adabtable, resourcefulness and humility.</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="box4">
+            <h2>MY SKILLS</h2>
+            <label id="BOX" for="#">My Skills</label>
+            <select name="LEARN" id="A">
+                <option value="LEARN MORE">LEARN MORE</option>
+                <option value="B">Graphics design</option>
+                <option value="C">Web design</option>
+                <option value="D">Software Development</option>
+                <option value="E">Teamwork</option>
+                <option value="F">Analytical Skills</option>
+                <option value="G">Creativity</option>
+                <option value="H">Problem solving</option>
+                <option value="I">Communication</option>
+                <option value="J">Programming language</option>
+
+            </select>
+        </div>
+   </section> 
+</body>
+</html>
